@@ -1,11 +1,16 @@
-#menu {
+.menu {
   height: 100vh;
   display: flex;
   align-items: center;
+  transform: translateX(-150%);
+  transition: transform 2s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+  background-color: rgba(20, 20, 20);
 }
 #menu-items {
   margin-left: clamp(4rem, 20vw, 48rem);
-  position: relative;
   z-index: 1;
 }
 
@@ -59,7 +64,7 @@
   position: absolute;
   top: 30px;
   right: 40px;
-  z-index: 2;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -94,7 +99,19 @@
   width: 32px;
   top: 30px;
   right: 40px;
-  z-index: 5;
+  z-index: 11;
   opacity: 0;
   cursor: pointer;
+}
+input:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+input:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+input:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+input:checked ~ .menu {
+  transform: translateX(0);
 }

@@ -1,18 +1,16 @@
 import "./nav.css";
 
-export default function Navbar() {
+export default function Navbar({ children }) {
   return (
     <div className="navbar">
-      <div id="hamburger">
-        <input class="checkbox" type="checkbox" name="" id="" />
-        <div class="hamburger-lines">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
-        </div>
+      <input class="checkbox" type="checkbox" name="" id="" />
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
       </div>
 
-      <div id="menu">
+      <div className="menu">
         <div id="menu-items">
           <a className="menu-item">/home</a>
           <a className="menu-item">/tools</a>
@@ -21,6 +19,7 @@ export default function Navbar() {
         </div>
         <div id="menu-background"></div>
       </div>
+      {children}
     </div>
   );
 }
