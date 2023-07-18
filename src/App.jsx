@@ -1,10 +1,9 @@
-import Projects from "./projects/Projects";
-import Tools from "./tools/Tools";
+import Projects from "./assets/components//projects/Projects";
+import Tools from "./assets/components/tools/Tools";
 
 function App(props) {
   return (
     <div>
-      {props.url}
       <Tools url={props.url} />
       <Projects url={props.url} />
     </div>
