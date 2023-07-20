@@ -3,7 +3,7 @@ import Tools from "./assets/components/tools/Tools";
 import Navbar from "./assets/components/navigation/Navbar";
 import Hero from "./assets/components/hero/Hero";
 import AboutMe from "./assets/components/about/AboutMe";
-import "./index.css";
+import "./assets/styles/index.css";
 
 function App(props) {
   return (

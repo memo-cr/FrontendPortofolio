@@ -7,9 +7,8 @@ body {
   font-family: "Outfit";
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  text-align: center;
   z-index: 2;
 }
