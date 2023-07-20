@@ -22,7 +22,7 @@ function Tools(props) {
   }, []);
 
   return (
-    <div>
+    <div className="tools-text">
       {tools.map((item) => (
         <ToolItem key={item._id} tool={item} />
       ))}

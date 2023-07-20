@@ -24,7 +24,7 @@ function Projects(props) {
   }, []);
 
   return (
-    <div>
+    <div className="projects-text">
       {projects.map((item) => (
         <ProjcetItem key={item._id} project={item} />
       ))}
