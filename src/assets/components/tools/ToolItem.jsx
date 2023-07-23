@@ -1,5 +1,5 @@
 function ToolItem(props) {
-  return <div className="tool">{props.tool.tool}</div>;
+  return <span className="string">'{props.tool.tool}',</span>;
 }
 
 export default ToolItem;

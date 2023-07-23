@@ -1,0 +1,41 @@
+.codeblock{
+    background-color: rgb(16, 14, 25);
+    font-family: Roboto Mono,Courier New,Courier,monospace!important;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.dot {
+    color: #3b3553;
+}
+.methods {
+    color: #5918df;
+}
+.propname {
+    color: #eeff31;
+}
+.scope {
+    color: #e3244c;
+}
+.string {
+    color: #24e33a;
+}
+.prop2{
+color: #24e394;
+}
+.number {
+    color: #e39d24;
+}
+.comment{
+    color: #78707e;
+}
+.code:after {
+    color: #3b3553;
+    content: attr(data-line-nr);
+    font-family: Roboto Mono,Courier New,Courier,monospace!important;
+    font-size: 16px;
+    left: -60px;
+    line-height: 1.6;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
