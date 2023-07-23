@@ -1,5 +1,5 @@
 function ToolItem(props) {
-  return <div>{props.tool.tool}</div>;
+  return <div className="tool">{props.tool.tool}</div>;
 }
 
 export default ToolItem;

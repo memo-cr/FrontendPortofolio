@@ -1,17 +1,16 @@
+import moon from "../../pictures/hero-moon.png";
+
 export default function Hero() {
   return (
-    <>
-      <div className="hero-text">
+    <section className="hero">
+      <div className="hero-container container grid">
         <h1>Mehmet Caran</h1>
+        <h2>Fullstack Developer</h2>
         <p>
           I build accessible, inclusive products and digital experiences for the
           web.
         </p>
-        <h2>Fullstack Developer</h2>
       </div>
-      <div className="hero-picture">
-        <img src="../picture/hero-moon.png"></img>
-      </div>
-    </>
+    </section>
   );
 }

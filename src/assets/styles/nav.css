@@ -61,7 +61,7 @@
   display: block;
   height: 26px;
   width: 32px;
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 40px;
   z-index: 10;
@@ -93,7 +93,7 @@
 }
 
 .checkbox {
-  position: absolute;
+  position: fixed;
   display: block;
   height: 32px;
   width: 32px;

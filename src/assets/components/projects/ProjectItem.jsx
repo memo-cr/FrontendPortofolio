@@ -1,5 +1,5 @@
 function ProjcetItem(props) {
-  return <div>{props.project.name}</div>;
+  return <div className="project">{props.project.name}</div>;
 }
 
 export default ProjcetItem;

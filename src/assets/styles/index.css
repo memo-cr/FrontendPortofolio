@@ -1,56 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0px;
-  background-color: rgba(50, 50, 50);
-}
-.container {
   color: white;
   font-family: "Outfit";
+  background-color: rgba(50, 50, 50);
+}
+
+.main {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-}
-.hero-text {
-  grid-column: 1/2;
-  border: 2px solid red;
+  top: 10%;
+  left: 10%;
+  border: 2px solid blue;
+  width: 80%;
 }
 
-.hero-picture {
-  grid-column: 2 / 4;
-  border: 2px solid red;
+section {
+  display: block;
+  padding: 2rem 0 4rem;
 }
 
-.tools-picture {
-  grid-row: 2;
-  grid-column: 1/2;
-  border: 2px solid red;
-}
-
-.tools-text {
-  grid-column: 2/4;
-  border: 2px solid red;
-}
-.projects-text {
-  grid-row: 3;
-  grid-column: 1/2;
-  border: 2px solid red;
-}
-.projects-picture {
-  grid-row: 3;
-  grid-column: 2/4;
-  border: 2px solid red;
-}
-.aboutme {
-  grid-row: 4;
-  grid-column: 1/4;
-  border: 2px solid red;
-}
-.footer {
-  grid-column: 1/4;
-  border: 2px solid red;
+.container {
+  max-width: 1200px;
 }

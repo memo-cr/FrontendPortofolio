@@ -1,3 +1,5 @@
+import ending from "../../pictures/landing-planet.png";
+
 export default function AboutMe() {
-  return <div className="aboutme">about me</div>;
+  return <section className="aboutme">about me</section>;
 }

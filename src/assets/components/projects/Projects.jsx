@@ -24,11 +24,11 @@ function Projects(props) {
   }, []);
 
   return (
-    <div className="projects-text">
+    <section className="projects">
       {projects.map((item) => (
         <ProjcetItem key={item._id} project={item} />
       ))}
-    </div>
+    </section>
   );
 }
 

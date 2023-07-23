@@ -7,16 +7,14 @@ import "./assets/styles/index.css";
 
 function App(props) {
   return (
-    <div className="body">
-      <Navbar>
-        <div className="container">
-          <Hero />
-          <Tools url={props.url} />
-          <Projects url={props.url} />
-          <AboutMe />
-        </div>
-      </Navbar>
+    // <Navbar>
+    <div className="main">
+      <Hero />
+      <Tools url={props.url} />
+      <Projects url={props.url} />
+      <AboutMe />
     </div>
+    // </Navbar>
   );
 }
 

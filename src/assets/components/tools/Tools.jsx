@@ -22,11 +22,11 @@ function Tools(props) {
   }, []);
 
   return (
-    <div className="tools-text">
+    <section className="tools">
       {tools.map((item) => (
         <ToolItem key={item._id} tool={item} />
       ))}
-    </div>
+    </section>
   );
 }
 
