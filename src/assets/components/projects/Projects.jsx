@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import ProjcetItem from "./ProjectItem";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from "react-responsive-carousel";
 
-let dummy={
-  name:"Portofolio", 
-des: "hellowordl"}
+let dummy=[{name:"portofolio",des:"helloworld",_id:"0"}, {name:"image",des:"helloworld",_id:"0"}, {name:"temp",des:"helloworld",_id:"0"}];
 
 
 function Projects(props) {
@@ -30,9 +30,11 @@ function Projects(props) {
 
   return (
     <section className="projects">
-      {projects.map((item) => (
+    <Carousel>
+      {dummy.map((item) => (
         <ProjcetItem key={item._id} project={item} />
       ))}
+    </Carousel>
     </section>
   );
 }
