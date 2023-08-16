@@ -8,13 +8,14 @@ function Codeblock(props) {
   ];
   return (
     <section className="codeblock">
+      <header id="codeheader"></header>
       <Line nr="01" methods="class" propname=" Mehmet Caran ">&#123;</Line>
       <Line nr="02" dot="··" comment="// I can, because I did."></Line>
       <Line nr="03" dot="··" comment="// My vast variety of skills is continuously expanding."></Line>
       <Line nr="04" dot="··" methods="constructor">() &#123;</Line>
       <Line nr="05" dot="····" thisname="name"> <span className="string">'Mehmet caran'</span> </Line>
       <Line nr="06" dot="····" thisname="dayOfBirthTimeStamp"> <span className="number">16042004</span> </Line>
-      <Line nr="07" dot="····" thisname="name"> <span className="string">'mehmetcaran@hotmail.com'</span> </Line>
+      <Line nr="07" dot="····" thisname="mail"> <span className="string">'mehmetcaran@hotmail.com'</span> </Line>
       <Line nr="08" dot="··">&#125;</Line>
       <Line nr="09" dot="··" propname="workExperience">() &#123;</Line>
       <Line nr="10" dot="····" methods="return"> [</Line>

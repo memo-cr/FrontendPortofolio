@@ -1,6 +1,7 @@
 function Line(props) {
   return (
-    <div >
+    <div className="line">
+      <span className="nr">{props.nr}  </span>
       {props.dot ? <span className="dot">{props.dot}</span> : null}
       {props.comment ? <span className="comment">{props.comment}</span> : null}
       {props.methods ? <span className="methods">{props.methods}</span> : null}

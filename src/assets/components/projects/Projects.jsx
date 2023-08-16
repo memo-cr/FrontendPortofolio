@@ -2,6 +2,11 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ProjcetItem from "./ProjectItem";
 
+let dummy={
+  name:"Portofolio", 
+des: "hellowordl"}
+
+
 function Projects(props) {
   let [projects, setProjects] = useState([]);
   let [loading, setLoading] = useState(true);

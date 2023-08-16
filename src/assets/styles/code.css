@@ -3,6 +3,16 @@
     font-family: Roboto Mono,Courier New,Courier,monospace!important;
     font-size: 16px;
     line-height: 1.6;
+    border-radius: 10px;
+    padding-top:0px;
+    padding-bottom: 15px;
+}
+.codeblock header{
+    background-color: rgb(29, 22, 63);
+    height:30px;
+    width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .dot {
     color: #3b3553;
@@ -29,7 +39,7 @@ color: #24e394;
     color: #78707e;
 }
 .code:after {
-    color: #3b3553;
+    color: #3b3553; 
     content: attr(data-line-nr);
     font-family: Roboto Mono,Courier New,Courier,monospace!important;
     font-size: 16px;
@@ -38,4 +48,18 @@ color: #24e394;
     position: absolute;
     top: 0;
     z-index: 3;
+}
+.nr{
+    opacity: 0.8;
+    color: #a09da1;
+    font-size: 15px;
+    font: bold;     
+
+}
+.line{
+    width:100%;
+
+}
+.line:hover{
+    background-color:#272727;
 }
