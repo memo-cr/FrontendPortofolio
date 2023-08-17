@@ -6,7 +6,9 @@ function SmallCard(props) {
 				<h1>{props.name}</h1>
 				<p>{props.des}</p>
 			</div>
-			<img src={props.img}></img>
+			<div className="rd-bg">
+				<img src={props.img}></img>
+			</div>
 		</div>
 	);
 }

@@ -4,9 +4,36 @@ import ProjcetItem from "./ProjectItem";
 import "../../styles/projects.css";
 
 let dummy = [
-	{ name: "portofolio", des: "helloworld", _id: "0" },
-	{ name: "image", des: "helloworld", _id: "0" },
-	{ name: "temp", des: "helloworld", _id: "0" },
+	{
+		name: "portofolio",
+		des: "Hello world my name is Mehmet Caran and i like coding",
+		_id: "0",
+	},
+	{
+		name: "image",
+		des: "Hello world my name is Mehmet Caran and i like coding",
+		_id: "1",
+	},
+	{
+		name: "temp",
+		des: "Hello world my name is Mehmet Caran and i like coding",
+		_id: "2",
+	},
+	{
+		name: "portofolio",
+		des: "Hello world my name is Mehmet Caran and i like coding",
+		_id: "3",
+	},
+	{
+		name: "image",
+		des: "Hello world my name is Mehmet Caran and i like coding",
+		_id: "4",
+	},
+	{
+		name: "temp",
+		des: "Hello world my name is Mehmet Caran and i like coding",
+		_id: "5",
+	},
 ];
 
 function Projects(props) {
