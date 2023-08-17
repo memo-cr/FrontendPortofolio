@@ -1,3 +1,19 @@
-.projects{
-    margin-top: 100px;
+.pr-wrapper {
+	display: flex;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 10px 10px;
+	border: green 1px solid;
+	height: 1000px;
+	flex-wrap: wrap;
+}
+.sm-container {
+	border: red solid 1px;
+	display: flex;
+}
+.sm-container.wrapper {
+}
+.sm-container h1 {
+}
+.sm-container img {
 }
