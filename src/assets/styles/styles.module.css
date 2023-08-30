@@ -1,0 +1,111 @@
+header {
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  position: relative;
+}
+main {
+  width: 80%;
+  margin: auto;
+  z-index: 5;
+  position: relative;
+}
+body {
+  background: #3e3cac;
+  color: white;
+}
+
+/* Navbar start */
+.navbar {
+  border-radius: 58px;
+  background: rgba(217, 217, 217, 0.18);
+  backdrop-filter: blur(46px);
+
+  display: inline-flex;
+  padding: 10px 20px 10px 20px;
+}
+.navtext {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Navbar end */
+
+/*background start */
+.purpleshape1 {
+  position: fixed;
+  border-radius: 1500px;
+  background: #a86ddf;
+  filter: blur(320px);
+  width: 1200px;
+  height: 1200px;
+  top: -600px;
+  left: -600px;
+  mix-blend-mode: multiply;
+}
+.redshape1 {
+  position: fixed;
+  width: 1200px;
+  height: 1200px;
+  border-radius: 1500px;
+  background: #c14e4e;
+  filter: blur(320px);
+  top: -800px;
+  left: 600px;
+  mix-blend-mode: multiply;
+}
+.blueshape1 {
+  position: fixed;
+  width: 1200px;
+  height: 1200px;
+  border-radius: 1500px;
+  background: #46b3d6;
+  filter: blur(320px);
+  top: -100px;
+  left: -300px;
+  mix-blend-mode: multiply;
+}
+
+.bg {
+  position: relative;
+  width: 99.9vw;
+  height: 99.9vh;
+  z-index: -1;
+}
+/*background end*/
+.hero {
+  color: #d7e0f9;
+  font-family: Roboto;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subtext {
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gradient {
+  background: linear-gradient(81deg, #a09fec 0%, #e9739a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.starpos {
+  right: 10px;
+}
