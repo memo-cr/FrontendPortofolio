@@ -2,7 +2,7 @@ import styles from "../../styles/styles.module.css";
 export default function Hero() {
   return (
     <section className={styles.herocontainer}>
-      <div>
+      <div className={styles.starpos}>
         <svg
           fill="white"
           height="66"

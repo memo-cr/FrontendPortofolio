@@ -79,6 +79,9 @@ body {
   z-index: -1;
 }
 /*background end*/
+.herocontainer {
+  margin-top: 100px;
+}
 .hero {
   color: #d7e0f9;
   font-family: Roboto;
@@ -107,5 +110,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .starpos {
-  right: 10px;
+  position: absolute;
+  left: 900px;
+  top: -50px;
 }
