@@ -1,16 +1,13 @@
-import moon from "../../pictures/hero-moon.png";
+import Stars from "./Stars";
 
 export default function Hero() {
   return (
     <section className="hero">
+      <Stars />
       <div className="hero-container container grid">
-        <h1>Mehmet Caran</h1>
-        <h2>Fullstack Developer</h2>
-        <p>
-          I build accessible, inclusive products and digital experiences for the
-          web.
-        </p>
+        Hi. I'm Mehmet. A <span className="gradient">Software Dev</span>.
       </div>
+      <Stars />
     </section>
   );
 }

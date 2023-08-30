@@ -1,17 +1,15 @@
-import Projects from "./assets/components//projects/Projects";
-import Tools from "./assets/components/tools/Tools";
+import Content from "./assets/components/projects/Content";
 import Navbar from "./assets/components/navigation/Navbar";
 import Hero from "./assets/components/hero/Hero";
-import "./assets/styles/index.css";
 
 function App(props) {
   return (
     <Navbar>
-      <div className="main">
+      <main>
         <Hero />
-        <Tools url={props.url} />
-        <Projects url={props.url} />
-      </div>
+        <Content url={props.url} type={true} />
+        <Content url={props.url} type={false} />
+      </main>
     </Navbar>
   );
 }
